@@ -74,6 +74,7 @@ local function MakeDraggable(topbar, frame)
 end
 
 function Window:CreateWindow(Setting)
+	checkLoadedUi()
 	local PlayerGui = Players.LocalPlayer:WaitForChild("PlayerGui")
 
 	-- Default Settings Override
