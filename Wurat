@@ -7,8 +7,9 @@ local function checkLoadedUi()
 	local LoadedUI = Players.LocalPlayer.PlayerGui:WaitForChild("MainGui")
 	if LoadedUI then
 		LoadedUI.Destroy()
+		print("F")
 	else
-		
+		print("N")
 	end
 end
 
