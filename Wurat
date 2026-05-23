@@ -4,7 +4,7 @@ local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
 
 local function checkLoadedUi()
-	local LoadedUI = Players.LocalPlayer:FindFirstChild("MainGui")
+	local LoadedUI = Players.LocalPlayer.PlayerGui:WaitForChild("MainGui")
 	
 	if Loaded then
 		Loaded.Destroy()
