@@ -1,4 +1,4 @@
-local BootingUI  = require(script:WaitForChild("Library"))
+local BootingUI  = require(https://raw.githubusercontent.com/MrTime-Create/WuratLibrary_2/refs/heads/main/Wurat)
 local Window = Loader:CreateWindow({
 	Name = "Test Ui Library",
 	LoadingTitleName = "Test UI",
