@@ -1,5 +1,5 @@
 local BootingUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrTime-Create/WuratLibrary_2/refs/heads/main/Wurat"))()
-local Window = Loader:CreateWindow({
+local Window = BootingUI:CreateWindow({
 	Name = "Test Ui Library",
 	LoadingTitleName = "Test UI",
 	LoadingTitle = "Test UI Interface Suite",
